@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2847A4481F331F3900F6A713 /* StandartSubjectImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2847A4471F331F3900F6A713 /* StandartSubjectImplementation.m */; };
 		286D74F61F31BE260011B8F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D74F51F31BE260011B8F1 /* main.m */; };
 		286D74F91F31BE260011B8F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D74F81F31BE260011B8F1 /* AppDelegate.m */; };
 		286D74FC1F31BE260011B8F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286D74FB1F31BE260011B8F1 /* ViewController.m */; };
 		286D74FF1F31BE260011B8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286D74FD1F31BE260011B8F1 /* Main.storyboard */; };
 		286D75011F31BE260011B8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286D75001F31BE260011B8F1 /* Assets.xcassets */; };
 		286D75041F31BE260011B8F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286D75021F31BE260011B8F1 /* LaunchScreen.storyboard */; };
+		28BBEF391F34178D001E838A /* SomeSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BBEF381F34178D001E838A /* SomeSubscriber.m */; };
+		28BBEF3F1F341842001E838A /* OtherSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BBEF3E1F341842001E838A /* OtherSubscriber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2847A4461F331F3900F6A713 /* StandartSubjectImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandartSubjectImplementation.h; sourceTree = "<group>"; };
+		2847A4471F331F3900F6A713 /* StandartSubjectImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandartSubjectImplementation.m; sourceTree = "<group>"; };
 		286D74F11F31BE260011B8F1 /* Patterns_10_Observer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patterns_10_Observer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286D74F51F31BE260011B8F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		286D74F71F31BE260011B8F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,12 @@
 		286D75001F31BE260011B8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		286D75031F31BE260011B8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		286D75051F31BE260011B8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288DD2501F32BC1B001F7245 /* StandartObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandartObserver.h; sourceTree = "<group>"; };
+		288DD2511F32BCC1001F7245 /* StandartSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandartSubject.h; sourceTree = "<group>"; };
+		28BBEF371F34178D001E838A /* SomeSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeSubscriber.h; sourceTree = "<group>"; };
+		28BBEF381F34178D001E838A /* SomeSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeSubscriber.m; sourceTree = "<group>"; };
+		28BBEF3D1F341842001E838A /* OtherSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherSubscriber.h; sourceTree = "<group>"; };
+		28BBEF3E1F341842001E838A /* OtherSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherSubscriber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,13 @@
 			children = (
 				286D74F71F31BE260011B8F1 /* AppDelegate.h */,
 				286D74F81F31BE260011B8F1 /* AppDelegate.m */,
+				2847A4461F331F3900F6A713 /* StandartSubjectImplementation.h */,
+				2847A4471F331F3900F6A713 /* StandartSubjectImplementation.m */,
+				28BBEF371F34178D001E838A /* SomeSubscriber.h */,
+				28BBEF381F34178D001E838A /* SomeSubscriber.m */,
+				28BBEF3D1F341842001E838A /* OtherSubscriber.h */,
+				28BBEF3E1F341842001E838A /* OtherSubscriber.m */,
+				288DD24C1F32BBB7001F7245 /* Protocols */,
 				286D74FA1F31BE260011B8F1 /* ViewController.h */,
 				286D74FB1F31BE260011B8F1 /* ViewController.m */,
 				286D74FD1F31BE260011B8F1 /* Main.storyboard */,
@@ -77,6 +95,15 @@
 				286D74F51F31BE260011B8F1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		288DD24C1F32BBB7001F7245 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				288DD2501F32BC1B001F7245 /* StandartObserver.h */,
+				288DD2511F32BCC1001F7245 /* StandartSubject.h */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28BBEF391F34178D001E838A /* SomeSubscriber.m in Sources */,
 				286D74FC1F31BE260011B8F1 /* ViewController.m in Sources */,
+				28BBEF3F1F341842001E838A /* OtherSubscriber.m in Sources */,
+				2847A4481F331F3900F6A713 /* StandartSubjectImplementation.m in Sources */,
 				286D74F91F31BE260011B8F1 /* AppDelegate.m in Sources */,
 				286D74F61F31BE260011B8F1 /* main.m in Sources */,
 			);
@@ -314,6 +344,7 @@
 				286D750A1F31BE260011B8F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
